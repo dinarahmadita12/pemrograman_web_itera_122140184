@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-200">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-100 h-[700px] flex flex-col justify-between">
+        <h1 class="text-center p-5 text-2xl font-bold">Kalkulator</h1>
+        
+        <!-- layar Kalkulator -->
+        <input id="layar" type="text" class="w-full h-16 text-right text-3xl p-3 rounded bg-gray-100 mb-6" disabled>
+
+        <!-- Tombol Kalkulator -->
+        <div class="grid grid-cols-4 gap-4 flex-grow">
+            <button class="tombol bg-red-500 text-white p-6 rounded-lg text-3xl" onclick="hapusLayar()">C</button>
+            <button class="tombol text-black font-bold p-6 rounded-lg text-3xl" onclick="tambahOperator('%')">%</button>
+            <button class="tombol text-black font-bold p-6 rounded-lg text-3xl" onclick="hitungAkar()">√</button>
+            <button class="tombol text-black font-bold p-6 rounded-lg text-3xl" onclick="tambahOperator('/')">÷</button>
+
+            <button class="tombol text-black font-bold p-6 rounded-lg text-3xl" onclick="tambahAngka(7)">7</button>
+            <button class="tombol text-black font-bold p-6 rounded-lg text-3xl" onclick="tambahAngka(8)">8</button>
+            <button class="tombol text-black font-bold p-6 rounded-lg text-3xl" onclick="tambahAngka(9)">9</button>
+            <button class="tombol text-black font-bold p-6 rounded-lg text-3xl" onclick="tambahOperator('*')">×</button>
+
+            <button class="tombol text-black font-bold p-6 rounded-lg text-3xl" onclick="tambahAngka(4)">4</button>
+            <button class="tombol text-black font-bold p-6 rounded-lg text-3xl" onclick="tambahAngka(5)">5</button>
+            <button class="tombol text-black font-bold p-6 rounded-lg text-3xl" onclick="tambahAngka(6)">6</button>
+            <button class="tombol text-black font-bold p-6 rounded-lg text-3xl" onclick="tambahOperator('-')">−</button>
+
+            <button class="tombol text-black font-bold p-6 rounded-lg text-3xl" onclick="tambahAngka(1)">1</button>
+            <button class="tombol text-black font-bold p-6 rounded-lg text-3xl" onclick="tambahAngka(2)">2</button>
+            <button class="tombol text-black font-bold p-6 rounded-lg text-3xl" onclick="tambahAngka(3)">3</button>
+            <button class="tombol text-black font-bold p-6 rounded-lg text-3xl" onclick="tambahOperator('+')">+</button>
+
+            <button class="tombol col-span-2 text-black font-bold p-6 rounded-lg text-3xl" onclick="tambahAngka(0)">0</button>
+            <button class="tombol text-black font-bold p-6 rounded-lg text-3xl" onclick="tambahOperator('^')">xʸ</button>
+            <button class="tombol bg-green-500 text-white p-6 rounded-lg text-3xl" onclick="hitungHasil()">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
