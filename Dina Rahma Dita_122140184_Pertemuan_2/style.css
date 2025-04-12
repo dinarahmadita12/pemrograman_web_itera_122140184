@@ -1,0 +1,58 @@
+.assignment-card:hover,
+.note-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.assignment-card,
+.note-card {
+  transition: all 0.2s ease-in-out;
+}
+
+.priority-low {
+  background-color: #E5F6FD;
+  color: #0369A1;
+}
+
+.priority-medium {
+  background-color: #FEF3C7;
+  color: #B45309;
+}
+
+.priority-high {
+  background-color: #FEE2E2;
+  color: #B91C1C;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c5c5c5;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a3a3a3;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
