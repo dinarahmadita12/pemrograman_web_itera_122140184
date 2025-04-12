@@ -8,7 +8,8 @@ Fitur-fitur utama aplikasi:
 •	Tampilan Responsif: Aplikasi dirancang untuk bekerja dengan baik di berbagai perangkat, dari desktop hingga perangkat mobile.
 2. Screenshot Aplikasi yang Sudah Jadi
 Tampilan halaman utama 
- 
+ ![image](https://github.com/user-attachments/assets/81d0ae77-9f54-47ac-aeda-89243b50dfc9)
+
 
 
 
