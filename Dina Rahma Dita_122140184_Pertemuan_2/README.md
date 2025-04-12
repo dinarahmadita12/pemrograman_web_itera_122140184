@@ -1,4 +1,5 @@
 A. Penjelasan Singkat tentang Fungsi Aplikasi dan Fitur-fiturnya
+
 Aplikasi ini adalah Personal Academic Dashboard yang dirancang untuk membantu mahasiswa mengelola jadwal kuliah, tugas, dan catatan mereka dalam satu platform terintegrasi. Aplikasi ini menyediakan fitur untuk menambah, mengedit, dan menghapus kelas, tugas, serta catatan pribadi. Dengan antarmuka yang sederhana dan responsif, mahasiswa dapat dengan mudah mengatur dan mengakses informasi akademik mereka secara efisien.
 Fitur-fitur utama aplikasi:
 
