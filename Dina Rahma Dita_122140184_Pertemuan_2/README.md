@@ -30,6 +30,10 @@ d. Pop up add notes
 e. Tampilan dengan mode responsif
  ![Screenshot 2025-04-12 174022](https://github.com/user-attachments/assets/a161dd01-21d8-49d9-a427-5169bb5508bd)
 
+f. Tampilan dalam LocalStorage
+![Screenshot 2025-04-13 001115](https://github.com/user-attachments/assets/e64ee9c0-5427-414f-8e53-3cf779744ea0)
+
+
 C. Daftar Fitur ES6+ yang Diimplementasikan
 
 1.	Arrow Functions
