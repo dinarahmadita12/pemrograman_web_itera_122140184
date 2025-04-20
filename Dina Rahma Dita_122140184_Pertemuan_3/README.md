@@ -8,18 +8,7 @@ Aplikasi ini memungkinkan pengguna untuk:
 - Menambah, mengedit, dan menghapus buku
 - Mencari buku berdasarkan judul atau penulis
 - Memfilter buku berdasarkan status (Dimiliki, Sedang Dibaca, Wishlist)
-- Melihat statistik koleksi buku
 - Menyimpan data secara lokal di browser
-
-## Teknologi yang Digunakan
-
-- React
-- TypeScript
-- Tailwind CSS
-- React Router
-- Lucide React (untuk ikon)
-- Vite (build tool)
-- Vitest (testing)
 
 ## Instalasi
 
@@ -35,13 +24,14 @@ Aplikasi ini memungkinkan pengguna untuk:
 
 ## Screenshot antarmuka
 1. Halaman Utama 
-![halaman-utama](screencapture-localhost-5173-2025-04-20-10_18_52.png)
+![halaman utama](https://github.com/user-attachments/assets/acdd8888-7589-4b5a-a13c-51f49b25843f)
 
 2. Halaman Tambah Buku
-![halaman-tambah-buku](image.png)
+![tambah buku](https://github.com/user-attachments/assets/40e8e18a-0a61-419f-8fd1-c7df8ca803b9)
 
 3. Halaman Edit Buku
-![halaman-edit-buku](image-1.png)
+![edit buku](https://github.com/user-attachments/assets/81e1545e-1007-44fc-8dd2-90871e4f4269)
+
 
 ## Fitur React yang Digunakan
 
@@ -61,11 +51,6 @@ Aplikasi ini memungkinkan pengguna untuk:
 ### 3. React Router
 - Routing untuk navigasi antar halaman
 - Dynamic routing untuk halaman edit buku
-
-### 4. Component Architecture
-- Komponen yang dapat digunakan kembali
-- Props typing dengan TypeScript
-- Proper prop validation dengan PropTypes
 
 ## Struktur Folder
 
@@ -96,27 +81,27 @@ src/
 ```
 
 ## Komentar dalam kode untuk bagian penting
-- Penggunaan `useContext` untuk mengakses state global. contoh di file BookContext.tsx
-![use-context](image-2.png)
-
 - Penggunaan `useState` untuk mengelola state lokal. Contoh di file useLocalStorage.ts
-![use-state](image-3.png)
+![Screenshot 2025-04-20 102708](https://github.com/user-attachments/assets/bd2f66c8-154a-4409-b40c-1b7688bd4540)
 
 - Penggunaan `useEffect` untuk efek samping dan sinkronisasi dengan localStorage. Contoh di file useLocalStorage.ts
-![use-effect](image-4.png)
+![Screenshot 2025-04-20 102800](https://github.com/user-attachments/assets/29d04f39-8019-4bc4-beb9-a6b353d8c7d9)
 
 - Penggunaan `useMemo` untuk menghindari re-render yang tidak perlu. Contoh di file useBookFilter.ts
-![use-memo](image-5.png)
+![Screenshot 2025-04-20 103239](https://github.com/user-attachments/assets/037c2d3d-eff8-4cb3-a319-9e87a767ff7b)
 
 - Penggunaan Error Handling. Contoh di file useLocalStorage.ts
-![error-handling](image-6.png)
+![Screenshot 2025-04-20 103446](https://github.com/user-attachments/assets/50437996-c53f-4f00-8fe1-3409593ce9ce)
 
 ## Testing
 
 Aplikasi menggunakan Vitest dan React Testing Library untuk testing. Jalankan test dengan:
 
 ```bash
-npm run test atau npm test
+npm run test 
 ```
+atau 
 
-
+```bash
+npm test 
+```
