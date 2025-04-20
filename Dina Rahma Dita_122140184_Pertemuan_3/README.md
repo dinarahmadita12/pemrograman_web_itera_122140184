@@ -105,3 +105,5 @@ atau
 ```bash
 npm test 
 ```
+Screenshot hasil testing
+![Screenshot 2025-04-20 101422](https://github.com/user-attachments/assets/643aa2aa-4713-47a9-85c9-7059abe46ad2)
