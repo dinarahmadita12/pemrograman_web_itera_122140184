@@ -98,5 +98,10 @@ src/
 Aplikasi menggunakan Vitest dan React Testing Library untuk testing. Jalankan test dengan:
 
 ```bash
-npm run test atau npm test
+npm run test 
+```
+atau 
+
+```bash
+npm test 
 ```
